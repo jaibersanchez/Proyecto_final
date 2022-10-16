@@ -1,0 +1,251 @@
+/* IMPORTS */
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&family=Poppins:wght@300;500;600&display=swap');
+
+/* VARIABLES */
+
+:root {
+
+    /* Palette */
+    --primary: #F1B7AD;
+    --secundary: #DDA1B1;
+    --light: #FFFCFC;
+    --accent: #000000;
+
+    /* Font Sizes */
+    --text-lg: 3.6em;
+    --text-md: 3.0em;
+    --text-sm: 2.5em;
+    --text-xs: 2.0em;
+    
+    /* Spacings */
+
+    --sp-lg: 12rem;
+    --sp-md: 10rem;
+    --sp-sm: 8rem;
+    --sp-xs: 1.6rem;
+    --sp-xss: 1rem;
+
+}
+
+/* NORMALIZE */
+
+* {
+    margin: 0%;
+    padding: 0rem;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+a { 
+    font-size: var(--text-md);
+    text-decoration: none;
+    
+}
+
+ul { 
+    list-style-type: none;    
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+h1{
+    font-size: var(--text-lg);
+}
+h2{
+    font-size: var(--text-md);
+}
+P{
+    font-size: var(--text-sm);
+}
+h3{
+    font-size: var(--text-xs);
+}
+
+.titulo{
+
+    background-image: linear-gradient(45deg, #a3586c, #DDA1B1);
+    text-align: center;
+    border-radius: 50px;
+    margin-block: 50px;
+    transition: transform 1s;
+    cursor: pointer;
+}
+
+.titulo:hover {
+
+    transform: scale(1.1)
+
+}
+
+.banner{
+
+    width: 100%;
+}
+
+
+/* HEADER */
+
+HEADER {
+    padding: var(--sp-xs);
+    background-color: var(--primary);
+    text-align: center;
+    color: #000000;
+    
+}
+
+
+.redeslogo{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.redes{
+    justify-self: start;
+    align-self: center;
+    animation: danzar 5s 1 ease-in-out;
+
+}
+
+.menu {
+
+    background-color: var(--primary);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 10px;  
+    gap: 40px;
+    
+}
+
+.__menu:hover{
+    transform: scale(1.2);
+    
+}
+/* PIE DE PAGINA */
+
+
+footer{
+    padding: var(--sp-xs);
+}
+Small {
+    background-color: var(--accent);
+    padding: var(--sp-xss);
+    color: var(--light);
+    text-align: center;
+    
+}
+
+.piedepa {
+    font-size: var(--text-xs);
+}
+.piedepa2 {
+    padding: var(--sp-xss);
+    font-size: var(--text-xs);
+    background-color: var(--accent);
+    text-align: center;
+}
+
+.piedepacenter {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+.linea2 {
+    width: 250px;
+    margin-block: 20px;
+    margin-inline: 20px;
+    text-align: center;
+
+}
+
+/* Inicio */
+
+.linea1 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-block: 20px;
+    margin-inline: 20px;
+    
+}
+/* Nosotros */
+
+.bienvenido{
+   display: grid;
+   grid-template-columns: 1fr 2fr 1fr;
+   text-align: justify;
+   margin-top: 20px;
+   margin-bottom: 10px;
+}
+.bienvenido1{
+   grid-column: 2;
+}
+.bienvenido2{
+   margin-top: 30px;
+}
+
+/* Contacto */
+
+.comentarios{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+ }
+ 
+ .comentarios1{
+    text-align: justify;
+    margin-block: 20px;
+    margin-inline: 50px;
+ }
+
+.comentarios2{
+    margin-bottom: 30px;
+}
+
+.diligenciar{
+    margin-inline-start: 40px;
+    box-sizing: border-box;
+    margin-block: 20px;
+}
+
+.input, textarea{
+    width: 100%;
+}
+   
+ .diligenciar1{
+    margin-bottom: 70px;  
+ }
+
+
+ @keyframes danzar{
+
+  
+    50%{
+        transform: translateX(100px);
+
+    }
+
+    75%{
+        transform: translateX(-20px);
+    }
+
+ }
+
+
+@media screen and (max-width: 1024){
+    
+}
