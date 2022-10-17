@@ -89,9 +89,10 @@ h3{
 
 }
 
-.banner{
-
-    width: 100%;
+#banner{
+    display: grid;
+    place-items: center;
+    min-width: 1400;
 }
 
 
@@ -117,6 +118,7 @@ HEADER {
     animation: danzar 5s 1 ease-in-out;
 
 }
+
 
 .menu {
 
@@ -161,6 +163,7 @@ Small {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    
   }
   
 .linea2 {
@@ -182,6 +185,7 @@ Small {
     margin-inline: 20px;
     
 }
+
 /* Nosotros */
 
 .bienvenido{
@@ -198,11 +202,34 @@ Small {
    margin-top: 30px;
 }
 
+/* Tiendas */
+
+.descripcion {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-block: 20px;
+    margin-inline: 20px;
+}
+
+.imgtienda{
+    width: 405px;
+    height: 399px;
+}
+
+/* catalogo */
+
+.catalogo{
+    width: 334px;
+    height: 399px;
+}
+
 /* Contacto */
 
 .comentarios{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin-block: 40px;
     
  }
  
@@ -222,8 +249,10 @@ Small {
     margin-block: 20px;
 }
 
-.input, textarea{
+input, textarea {
+    margin: 0;
     width: 100%;
+    line-height: inherit;
 }
    
  .diligenciar1{
@@ -245,7 +274,21 @@ Small {
 
  }
 
+/* bootstrap */
 
-@media screen and (max-width: 1024){
-    
+.navbar {
+    display: grid;
 }
+dl, ol, ul {
+    margin-top: 0;
+    margin-bottom: 0rem;
+    padding-left: 0rem;
+}
+
+  .navbar {
+    justify-content: normal;
+  }
+
+
+
+
