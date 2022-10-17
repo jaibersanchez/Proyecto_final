@@ -71,6 +71,7 @@ P{
 }
 h3{
     font-size: var(--text-xs);
+    
 }
 
 .titulo{
@@ -89,10 +90,8 @@ h3{
 
 }
 
-#banner{
-    display: grid;
-    place-items: center;
-    min-width: 1400;
+.banner{
+   max-width: 100%;
 }
 
 
@@ -119,7 +118,6 @@ HEADER {
 
 }
 
-
 .menu {
 
     background-color: var(--primary);
@@ -127,8 +125,11 @@ HEADER {
     justify-content: center;
     flex-wrap: wrap;
     margin-top: 10px;  
-    gap: 40px;
-    
+    gap: 40px; 
+}
+
+.menu .__menu{
+    color: var(--accent);
 }
 
 .__menu:hover{
@@ -186,6 +187,10 @@ Small {
     
 }
 
+.imglinea1{
+    max-width: 100%;
+}
+
 /* Nosotros */
 
 .bienvenido{
@@ -215,6 +220,7 @@ Small {
 .imgtienda{
     width: 405px;
     height: 399px;
+    max-width: 100%;
 }
 
 /* catalogo */
@@ -222,18 +228,21 @@ Small {
 .catalogo{
     width: 334px;
     height: 399px;
+    max-width: 100%;
 }
 
 /* Contacto */
 
 .comentarios{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(345px, 1fr));
     margin-block: 40px;
+    width: 100%;
+    
     
  }
  
- .comentarios1{
+.comentarios1{
     text-align: justify;
     margin-block: 20px;
     margin-inline: 50px;
@@ -252,7 +261,6 @@ Small {
 input, textarea {
     margin: 0;
     width: 100%;
-    line-height: inherit;
 }
    
  .diligenciar1{
@@ -278,16 +286,21 @@ input, textarea {
 
 .navbar {
     display: grid;
+    justify-content: normal;
 }
+
 dl, ol, ul {
     margin-top: 0;
     margin-bottom: 0rem;
     padding-left: 0rem;
 }
 
-  .navbar {
-    justify-content: normal;
+textarea {
+    margin: 0;
+    font-family: 'PT Sans Narrow', sans-serif;
+    line-height: sans-serif;
   }
+
 
 
 
