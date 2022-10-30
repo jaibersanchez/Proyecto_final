@@ -1,0 +1,42 @@
+/* Contacto */
+
+.comentarios{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(289px, 1fr));
+    margin-block: 40px;
+    width: 100%;
+
+    .comentarios1{
+        text-align: justify;
+        margin-block: 20px;
+        margin-inline: 50px;
+
+        .comentarios2{
+            margin-bottom: 30px;
+        }
+        
+     }
+    
+     .diligenciar{
+        margin-inline-start: 40px;
+        box-sizing: border-box;
+        margin-block: 20px;
+        margin-inline: 50px;
+
+        .diligenciar1{
+            margin-bottom: 70px;  
+
+            input, textarea {
+                margin: 0;
+                width: 100%;
+            }
+         }    
+         
+    }
+    
+ }
+ 
+
+
+
+

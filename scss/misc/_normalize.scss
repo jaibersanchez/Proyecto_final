@@ -1,0 +1,60 @@
+
+/* NORMALIZE */
+* {
+    margin: 0%;
+    padding: 0rem;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+a { 
+    font-size: $text-md;
+    text-decoration: none;
+}
+
+ul { 
+    list-style-type: none;    
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1{
+    font-size: $text-lg;
+}
+
+h2{
+    font-size: $text-md;
+}
+
+p{
+    font-size: $text-sm;
+}
+
+h3{
+    font-size: $text-xs;
+    
+}
+
+/* bootstrap */
+
+dl, ol, ul {
+    margin-top: 0;
+    margin-bottom: 0rem;
+    padding-left: 0rem;
+}
+
+textarea {
+    margin: 0;
+    font-family: 'PT Sans Narrow', sans-serif;
+    line-height: sans-serif;
+  }

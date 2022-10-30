@@ -1,0 +1,23 @@
+/* IMPORTS */
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&family=Poppins:wght@300;500;600&display=swap');
+
+/* MISC */
+
+@import "./misc/variables";
+@import "./misc/mixins";
+@import "./misc/normalize";
+
+/* partials */
+
+@import "./partials/header";
+@import "./partials/footer";
+
+/* pages */
+
+@import "./pages/index";
+@import "./pages/nosotros";
+@import "./pages/catálogo";
+@import "./pages/tiendas";
+@import "./pages/contacto";
+

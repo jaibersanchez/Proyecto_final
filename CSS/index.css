@@ -1,36 +1,37 @@
 /* IMPORTS */
 
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&family=Poppins:wght@300;500;600&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&family=Poppins:wght@300;500;600&display=swap'); */
 
 /* VARIABLES */
 
-:root {
+/* :root { */
 
     /* Palette */
-    --primary: #F1B7AD;
+    /* --primary: #F1B7AD;
     --secundary: #DDA1B1;
     --light: #FFFCFC;
-    --accent: #000000;
+    --accent: #000000; */
 
     /* Font Sizes */
-    --text-lg: 3.6em;
+   /*  --text-lg: 3.6em;
     --text-md: 3.0em;
     --text-sm: 2.5em;
     --text-xs: 2.0em;
+    --text-xxs: 1.5em; */
     
     /* Spacings */
 
-    --sp-lg: 12rem;
+    /* --sp-lg: 12rem;
     --sp-md: 10rem;
     --sp-sm: 8rem;
     --sp-xs: 1.6rem;
     --sp-xss: 1rem;
-
-}
+ */
+/* } */
 
 /* NORMALIZE */
 
-* {
+/* * {
     margin: 0%;
     padding: 0rem;
     box-sizing: border-box;
@@ -66,15 +67,15 @@ h1{
 h2{
     font-size: var(--text-md);
 }
-P{
+p{
     font-size: var(--text-sm);
 }
 h3{
     font-size: var(--text-xs);
     
-}
+} */
 
-.titulo{
+/* .titulo{
 
     background-image: linear-gradient(45deg, #a3586c, #DDA1B1);
     text-align: center;
@@ -92,12 +93,12 @@ h3{
 
 .banner{
    max-width: 100%;
-}
+} */
 
 
 /* HEADER */
 
-HEADER {
+/* HEADER {
     padding: var(--sp-xs);
     background-color: var(--primary);
     text-align: center;
@@ -105,10 +106,16 @@ HEADER {
     
 }
 
+.navbar {
+    display: grid;
+    justify-content: normal;
+}
 
 .redeslogo{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    max-width: 100%;
+    
 }
 
 .redes{
@@ -116,9 +123,9 @@ HEADER {
     align-self: center;
     animation: danzar 5s 1 ease-in-out;
 
-}
+} */
 
-.menu {
+/* .menu {
 
     background-color: var(--primary);
     display: flex;
@@ -135,11 +142,13 @@ HEADER {
 .__menu:hover{
     transform: scale(1.2);
     
-}
+} */
+
+
 /* PIE DE PAGINA */
 
 
-footer{
+/* footer{
     padding: var(--sp-xs);
 }
 Small {
@@ -173,11 +182,11 @@ Small {
     margin-inline: 20px;
     text-align: center;
 
-}
+} */
 
 /* Inicio */
 
-.linea1 {
+/* .linea1 {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -189,11 +198,11 @@ Small {
 
 .imglinea1{
     max-width: 100%;
-}
+} */
 
 /* Nosotros */
 
-.bienvenido{
+/* .bienvenido{
    display: grid;
    grid-template-columns: 1fr 2fr 1fr;
    text-align: justify;
@@ -205,11 +214,11 @@ Small {
 }
 .bienvenido2{
    margin-top: 30px;
-}
+} */
 
 /* Tiendas */
 
-.descripcion {
+/* .descripcion {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -221,19 +230,19 @@ Small {
     width: 405px;
     height: 399px;
     max-width: 100%;
-}
+} */
 
 /* catalogo */
 
-.catalogo{
+/* .catalogo{
     width: 334px;
     height: 399px;
     max-width: 100%;
-}
+} */
 
 /* Contacto */
 
-.comentarios{
+/* .comentarios{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(289px, 1fr));
     margin-block: 40px;
@@ -256,6 +265,7 @@ Small {
     margin-inline-start: 40px;
     box-sizing: border-box;
     margin-block: 20px;
+    margin-inline: 50px;
 }
 
 input, textarea {
@@ -266,9 +276,9 @@ input, textarea {
  .diligenciar1{
     margin-bottom: 70px;  
  }
+ */
 
-
- @keyframes danzar{
+ /* @keyframes danzar{
 
   
     50%{
@@ -280,16 +290,13 @@ input, textarea {
         transform: translateX(-20px);
     }
 
- }
+ } */
 
 /* bootstrap */
 
-.navbar {
-    display: grid;
-    justify-content: normal;
-}
 
-dl, ol, ul {
+
+/* dl, ol, ul {
     margin-top: 0;
     margin-bottom: 0rem;
     padding-left: 0rem;
@@ -300,8 +307,44 @@ textarea {
     font-family: 'PT Sans Narrow', sans-serif;
     line-height: sans-serif;
   }
+ */
 
+/* responsive */
 
+/* @media screen and (max-width: 576px  ){
+    a{
+        font-size: var(--text-sm);
+    }
+    h1{
+        font-size: var(--text-md);
+    }
+    h2{
+        font-size: var(--text-sm);
+    }
+    h3{
+        font-size: var(--text-xxs);
+    }
+    p{
+        font-size: var(--text-xs);
+    }
+    .piedepa{
+        font-size: var(--text-xxs);
+    }
+    .menu{
+        gap: 20px;
 
+    }
+    
+    @keyframes danzar{
+        50%{
+            transform: translateX(75px);
+        }
+    
+        75%{
+            transform: translateX(-10px);
+        }
+    
+     }
+} */
 
 

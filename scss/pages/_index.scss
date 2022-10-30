@@ -1,0 +1,95 @@
+  /* menu*/
+
+.menu {
+    @include flex (row, wrap, center, no-text-align, 40px);
+    background-color: $primary;
+    /* display: flex; */
+    /* justify-content: center;
+    flex-wrap: wrap; */
+    /* gap: 40px;  */
+    margin-top: 10px;  
+
+    & .__menu{
+        color: $accent;
+    }
+    .__menu:hover{
+        transform: scale(1.2);   
+    }
+
+}
+
+
+.banner{
+    max-width: 100%;
+ }
+
+.titulo{
+
+    background-image: linear-gradient(45deg, #a3586c, #DDA1B1);
+    text-align: center;
+    border-radius: 50px;
+    margin-block: 50px;
+    transition: transform 1s;
+    cursor: pointer;
+
+    &:hover {
+
+        transform: scale(1.1)
+    
+    }
+}
+
+
+.linea1 {
+    @include flex (row, wrap, space-around, center, no-gap);
+   /*  display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center; */
+    margin-block: 20px;
+    margin-inline: 20px;
+
+    .imglinea1{
+        max-width: 100%;
+    }
+    
+}
+
+/* responsive */
+
+@media screen and (max-width: 576px  ){
+    a{
+        font-size: $text-sm;
+    }
+    h1{
+        font-size: $text-md;
+    }
+    h2{
+        font-size: $text-sm;
+    }
+    h3{
+        font-size: $text-xxs;
+    }
+    p{
+        font-size: $text-xs;
+    }
+    .piedepa{
+        font-size: $text-xxs;
+    }
+    .menu{
+        gap: 20px;
+
+    }
+    
+    @keyframes danzar{
+        50%{
+            transform: translateX(10px);
+        }
+    
+        75%{
+            transform: translateX(-10px);
+        }
+    
+     }
+}
+

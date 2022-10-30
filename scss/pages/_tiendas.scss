@@ -1,0 +1,16 @@
+/* Tiendas */
+
+.descripcion {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-block: 20px;
+    margin-inline: 20px;
+
+    .imgtienda{
+        width: 405px;
+        height: 399px;
+        max-width: 100%;
+    }
+}
+
