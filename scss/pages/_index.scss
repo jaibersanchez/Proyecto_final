@@ -46,7 +46,7 @@
     justify-content: space-around;
     flex-wrap: wrap;
     text-align: center; */
-    margin-block: 20px;
+    margin-block: 50px;
     margin-inline: 20px;
 
     .imglinea1{
@@ -67,15 +67,11 @@
     h2{
         font-size: $text-sm;
     }
-    h3{
-        font-size: $text-xxs;
-    }
+    
     p{
         font-size: $text-xs;
     }
-    .piedepa{
-        font-size: $text-xxs;
-    }
+    
     .menu{
         gap: 20px;
 

@@ -4,9 +4,13 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin-block: 20px;
+    margin-block: 50px;
     margin-inline: 20px;
-
+    
+    .cuadro{
+        width: 290px;
+        height: 399px;
+    }
     .imgtienda{
         width: 405px;
         height: 399px;

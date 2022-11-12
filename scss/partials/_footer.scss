@@ -2,13 +2,15 @@
 
 
 footer{
-    padding: $sp-xs;
+  
 
     .piedepacenter {
         display: flex;
         justify-content: space-around;
         flex-wrap: wrap;
+        border: solid grey;
 
+        
         .linea2 {
             width: 250px;
             margin-block: 20px;

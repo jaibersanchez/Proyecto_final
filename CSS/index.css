@@ -226,6 +226,11 @@ Small {
     margin-inline: 20px;
 }
 
+.cuadro{
+        width: 290px;
+        height: 399px;
+    }
+
 .imgtienda{
     width: 405px;
     height: 399px;
@@ -266,6 +271,7 @@ Small {
     box-sizing: border-box;
     margin-block: 20px;
     margin-inline: 50px;
+    font-size: --text-xs ;
 }
 
 input, textarea {
